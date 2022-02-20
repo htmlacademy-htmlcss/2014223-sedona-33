@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+font-weight: 400;
+src: url("fonts/pt-sans-regular.woff2") format("woff2");
+font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/pt-sans-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-narrow-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+line-height: 21px;
+background-color: #E5E5E5;
+color: #000000;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+.introduction {
+  
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+.topic {
+  color: #333333;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.page-footer {
+color: #FFFFFF;
+font-family: PT Sans;
+font-style: normal;
+font-size: 30px;
+line-height: 36px;
+}
+
+
+.appointment h2 {
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+text-align: center;
+}
+
+.appointment p {
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color: #333333;
+}
+
+.search-link {
+color: #FFFFFF;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.newsletter-form {
+text-align: center;
+text-transform: uppercase;
+}
+
+.newsletter p {
+font-size: 22px;
+line-height: 26px;
+font-weight: normal;
+text-align: center;
+}
+
+.contacts-phone {
+font-size: 40px;
+line-height: 40px;
+font-weight: normal;
+color: #000000;
+}
+
+.html-academy-link {
+color: #000000;
+}
