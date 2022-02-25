@@ -61,6 +61,13 @@ color: #000000;
   text-transform: uppercase; 
 }
 
+.nav-button {
+  background: #756257;
+  width: 160px;
+  height: 37px;
+  color: #ffffff;
+}
+
 .introduction {
   
   font-weight: 700;
@@ -86,6 +93,12 @@ font-size: 30px;
 line-height: 36px;
 }
 
+.newsletter {
+  background-image: url("../images/background.png");
+  width: 1200;
+  height: 411;
+  background-color: #333333;
+}
 
 .appointment h2 {
 font-size: 30px;
