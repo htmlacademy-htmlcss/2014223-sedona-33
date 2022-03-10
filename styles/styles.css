@@ -51,18 +51,19 @@ body {
 line-height: 21px;
 background-color: #E5E5E5;
 color: #000000;
+width: 1200px;
+  margin: 0 auto;
 }
 
 .page-header {
   color: #000000;
   background-color: #ffffff;
-
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .navigation {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
 }
 
 .navigation-list {
@@ -94,7 +95,7 @@ color: #000000;
 }
 
 .page-container {
-  width: 1060px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -127,10 +128,9 @@ font-size: 30px;
 line-height: 36px;
 }
 
-.page-footer-container {
+.contacts {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .newsletter {
@@ -171,6 +171,11 @@ font-size: 22px;
 line-height: 26px;
 font-weight: normal;
 text-align: center;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts-phone {
