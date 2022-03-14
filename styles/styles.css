@@ -60,6 +60,7 @@ width: 1200px;
   background-color: #ffffff;
   width: 1200px;
   margin: 0 auto;
+  height: 66px;
 }
 
 .navigation {
@@ -67,17 +68,23 @@ width: 1200px;
 }
 
 .navigation-list {
+  display: flex;
   margin: 0;
   padding: 0;
   width: 500px;
+  list-style-type: none;
+  flex-wrap: wrap; 
 }
 
 .navigation-user {
+  display: flex;
   max-width: 280px;
   margin-left: auto;
+  list-style-type: none;
 }
 
 .navigation-link {
+  padding: 20px 17px;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
@@ -113,11 +120,27 @@ width: 1200px;
   
 }
 
+h1 {
+  font-size: 30px;
+}
+
+.advantages-list {
+  list-style-type: none;
+}
+
+.advantage-1-list {
+  list-style-type: none;
+}
+
 .topic {
   color: #333333;
   font-weight: normal;
   font-size: 22px;
   line-height: 36px;
+}
+
+.advantage-1-list {
+  display: flex;
 }
 
 .page-footer {
@@ -176,6 +199,11 @@ text-align: center;
 .contacts {
   display: flex;
   justify-content: space-between;
+}
+
+.footer-social-list {
+  list-style-type: none;
+  display: flex;
 }
 
 .contacts-phone {
