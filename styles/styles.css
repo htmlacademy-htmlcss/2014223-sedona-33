@@ -71,6 +71,8 @@ width: 1200px;
   display: flex;
   margin: 0;
   padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 500px;
   list-style-type: none;
   flex-wrap: wrap; 
@@ -124,12 +126,15 @@ h1 {
   font-size: 30px;
 }
 
-.advantages-list {
+.advantages-list-1 {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.advantage-1-list {
-  list-style-type: none;
+.advantages-list-2 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .topic {
@@ -137,10 +142,6 @@ h1 {
   font-weight: normal;
   font-size: 22px;
   line-height: 36px;
-}
-
-.advantage-1-list {
-  display: flex;
 }
 
 .page-footer {
